@@ -3,14 +3,20 @@
 
 ### 安裝：
 
-- 複製專案：git clone https://github.com/jasonb122/exchange_rate.git
-- 進入專案目錄：cd exchange_rate
-- 建立虛擬環境：python -m venv venv
-- 啟用虛擬環境：
-- 在 Windows 上：venv\Scripts\activate
-- 在 macOS/Linux 上：source venv/bin/activate
-- 安裝所需套件：pip install -r requirements.txt
-- 啟動 Flask 應用程式：flask run
+- Anaconda安裝(推薦)
+  - 複製專案：git clone https://github.com/jasonb122/exchange_rate.git
+  - 進入專案目錄：cd exchange_rate
+  - 確認是否有requirements.txt檔案內的套件，如沒有的話進行安裝：pip install -r requirements.txt
+  - 啟動 Flask 應用程式：flask run
+- 本地安裝
+  - 複製專案：git clone https://github.com/jasonb122/exchange_rate.git
+  - 進入專案目錄：cd exchange_rate
+  - 建立虛擬環境：python -m venv venv
+  - 啟用虛擬環境：
+  - 在 Windows 上：venv\Scripts\activate
+  - 在 macOS/Linux 上：source venv/bin/activate
+  - 安裝所需套件：pip install -r requirements.txt
+  - 啟動 Flask 應用程式：flask run
 
 ### 使用方式
 
